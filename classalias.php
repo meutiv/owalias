@@ -1,5 +1,6 @@
 <?php
 
+// class aliases
 class_alias("MT", "OW");
 class_alias("MT_Route", "OW_Route");
 class_alias("MT_Router", "OW_Router");
@@ -70,3 +71,25 @@ class_alias("MT_User", "OW_User");
 class_alias("MT_Validator", "OW_Validator");
 class_alias("MT_ViewRenderer", "OW_ViewRenderer");
 class_alias("MT_View", "OW_View");
+
+// constants
+if( defined('MT_URL_HOME') )
+    define('OW_URL_HOME', MT_URL_HOME);
+
+if( defined('MT_DB_HOST') )
+    define('OW_DB_HOST', MT_DB_HOST);
+
+if( defined('MT_DB_PORT') )
+    define('OW_DB_PORT', MT_DB_PORT);
+
+if( defined('MT_DB_USER') )
+    define('OW_DB_USER', MT_DB_USER);
+
+if( defined('MT_DB_PASSWORD') )
+    define('OW_DB_PASSWORD', MT_DB_PASSWORD);
+
+if( defined('MT_DB_NAME') )
+    define('OW_DB_NAME', MT_DB_NAME);
+
+if( defined('MT_DB_PREFIX') )
+    define('OW_DB_PREFIX', MT_DB_PREFIX);
