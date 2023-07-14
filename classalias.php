@@ -73,6 +73,15 @@ class_alias("MT_ViewRenderer", "OW_ViewRenderer");
 class_alias("MT_View", "OW_View");
 
 // constants
+// TO DO: Make the constant looping work
+/* $const = 'URL_HOME, DB_HOST, DB_PORT, DB_USER, DB_PASSWORD, DB_NAME, DB_PREFIX, DIR_STATIC,URL_STATIC,DIR_USERFILES,URL_USERFILES,DIR_PLUGINFILES,PASSWORD_SALT,DIR_CORE,DIR_INC,DIR_LIB,DIR_UTIL,DIR_SMARTY,DIR_PLUGI,DIR_THEME,DIR_SYSTEM_PLUGIN,CRON,DEBUG_MODE,DEV_MODE,PROFILER_ENABLE';
+
+foreach (explode(',', $const) as $name) {
+    if (defined("MT_{$name}")) {
+        define("OW_{$name}", constant("MT_{$name}"));
+    }
+} */
+
 if( defined('MT_URL_HOME') )
     define('OW_URL_HOME', MT_URL_HOME);
 
