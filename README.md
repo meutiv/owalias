@@ -6,78 +6,78 @@ This script provides class and constant aliases to match Meutiv core classes and
 
 The following class aliases are defined in this script:
 
-MT is aliased as OW
-MT_Route is aliased as OW_Route
-MT_Router is aliased as OW_Router
-MT_Autoload is aliased as OW_Autoload
-MT_BaseDao is aliased as OW_BaseDao
-MT_Entity is aliased as OW_Entity
-MT_EventManager is aliased as OW_EventManager
-MT_Event is aliased as OW_Event
-MT_ActionController is aliased as OW_ActionController
-MT_AjaxDocument is aliased as OW_AjaxDocument
-MT_ApiActionController is aliased as OW_ApiActionController
-MT_ApiApplication is aliased as OW_ApiApplication
-MT_ApiDefaultRoute is aliased as OW_ApiDefaultRoute
-MT_ApiDocument is aliased as OW_ApiDocument
-MT_ApiRequestHandler is aliased as OW_ApiRequestHandler
-MT_Application is aliased as OW_Application
-MT_AuthAdapter is aliased as OW_AuthAdapter
-MT_AuthResult is aliased as OW_AuthResult
-MT_Auth is aliased as OW_Auth
-MT_Authorization is aliased as OW_Authorization
-MT_BillingAdapter is aliased as OW_BillingAdapter
-MT_BillingProductAdapter is aliased as OW_BillingProductAdapter
-MT_CacheManager is aliased as OW_CacheManager
-MT_CacheService is aliased as OW_CacheService
-MT_CliApplication is aliased as OW_CliApplication
-MT_Component is aliased as OW_Component
-MT_Config is aliased as OW_Config
-MT_Cron is aliased as OW_Cron
-MT_Database is aliased as OW_Database
-MT_DefaultRoute is aliased as OW_DefaultRoute
-MT_DeveloperTools is aliased as OW_DeveloperTools
-MT_Dispatcher is aliased as OW_Dispatcher
-MT_Document is aliased as OW_Document
-MT_ErrorManager is aliased as OW_ErrorManager
-MT_Example is aliased as OW_Example
-MT_Feedback is aliased as OW_Feedback
-MT_IFilter is aliased as OW_IFilter
-MT_HtmlDocument is aliased as OW_HtmlDocument
-MT_IAuthenticator is aliased as OW_IAuthenticator
-MT_ICacheBackend is aliased as OW_ICacheBackend
-MT_Language is aliased as OW_Language
-MT_LogWriter is aliased as OW_LogWriter
-MT_Log is aliased as OW_Log
-MT_Mailer is aliased as OW_Mailer
-MT_MasterPage is aliased as OW_MasterPage
-MT_MobileActionController is aliased as OW_MobileActionController
-MT_MobileApplication is aliased as OW_MobileApplication
-MT_MobileComponent is aliased as OW_MobileComponent
-MT_MobileMasterPage is aliased as OW_MobileMasterPage
-MT_Navigation is aliased as OW_Navigation
-MT_PluginManager is aliased as OW_PluginManager
-MT_Plugin is aliased as OW_Plugin
-MT_Registry is aliased as OW_Registry
-MT_RemoteAuthAdapter is aliased as OW_RemoteAuthAdapter
-MT_Renderable is aliased as OW_Renderable
-MT_RequestHandler is aliased as OW_RequestHandler
-MT_Request is aliased as OW_Request
-MT_Response is aliased as OW_Response
-MT_SessionAuthenticator is aliased as OW_SessionAuthenticator
-MT_Session is aliased as OW_Session
-MT_Singleton is aliased as OW_Singleton
-MT_Smarty is aliased as OW_Smarty
-MT_Storage is aliased as OW_Storage
-MT_TextSearchManager is aliased as OW_TextSearchManager
-MT_Theme is aliased as OW_Theme
-MT_TokenAuthenticator is aliased as OW_TokenAuthenticator
-MT_User is aliased as OW_User
-MT_Validator is aliased as OW_Validator
-MT_ViewRenderer is aliased as OW_ViewRenderer
-MT_View is aliased as OW_View
+- MT is aliased as OW
+- MT_Route is aliased as OW_Route
+- MT_Router is aliased as OW_Router
+- MT_Autoload is aliased as OW_Autoload
+- MT_BaseDao is aliased as OW_BaseDao
+- MT_Entity is aliased as OW_Entity
+- MT_EventManager is aliased as OW_EventManager
+- MT_Event is aliased as OW_Event
+- MT_ActionController is aliased as OW_ActionController
+- MT_AjaxDocument is aliased as OW_AjaxDocument
+- MT_ApiActionController is aliased as OW_ApiActionController
+- MT_ApiApplication is aliased as OW_ApiApplication
+- MT_ApiDefaultRoute is aliased as OW_ApiDefaultRoute
+- MT_ApiDocument is aliased as OW_ApiDocument
+- MT_ApiRequestHandler is aliased as OW_ApiRequestHandler
+- MT_Application is aliased as OW_Application
+- MT_AuthAdapter is aliased as OW_AuthAdapter
+- MT_AuthResult is aliased as OW_AuthResult
+- MT_Auth is aliased as OW_Auth
+- MT_Authorization is aliased as OW_Authorization
+- MT_BillingAdapter is aliased as OW_BillingAdapter
+- MT_BillingProductAdapter is aliased as OW_BillingProductAdapter
+- MT_CacheManager is aliased as OW_CacheManager
+- MT_CacheService is aliased as OW_CacheService
+- MT_CliApplication is aliased as OW_CliApplication
+- MT_Component is aliased as OW_Component
+- MT_Config is aliased as OW_Config
+- MT_Cron is aliased as OW_Cron
+- MT_Database is aliased as OW_Database
+- MT_DefaultRoute is aliased as OW_DefaultRoute
+- MT_DeveloperTools is aliased as OW_DeveloperTools
+- MT_Dispatcher is aliased as OW_Dispatcher
+- MT_Document is aliased as OW_Document
+- MT_ErrorManager is aliased as OW_ErrorManager
+- MT_Example is aliased as OW_Example
+- MT_Feedback is aliased as OW_Feedback
+- MT_IFilter is aliased as OW_IFilter
+- MT_HtmlDocument is aliased as OW_HtmlDocument
+- MT_IAuthenticator is aliased as OW_IAuthenticator
+- MT_ICacheBackend is aliased as OW_ICacheBackend
+- MT_Language is aliased as OW_Language
+- MT_LogWriter is aliased as OW_LogWriter
+- MT_Log is aliased as OW_Log
+- MT_Mailer is aliased as OW_Mailer
+- MT_MasterPage is aliased as OW_MasterPage
+- MT_MobileActionController is aliased as OW_MobileActionController
+- MT_MobileApplication is aliased as OW_MobileApplication
+- MT_MobileComponent is aliased as OW_MobileComponent
+- MT_MobileMasterPage is aliased as OW_MobileMasterPage
+- MT_Navigation is aliased as OW_Navigation
+- MT_PluginManager is aliased as OW_PluginManager
+- MT_Plugin is aliased as OW_Plugin
+- MT_Registry is aliased as OW_Registry
+- MT_RemoteAuthAdapter is aliased as OW_RemoteAuthAdapter
+- MT_Renderable is aliased as OW_Renderable
+- MT_RequestHandler is aliased as OW_RequestHandler
+- MT_Request is aliased as OW_Request
+- MT_Response is aliased as OW_Response
+- MT_SessionAuthenticator is aliased as OW_SessionAuthenticator
+- MT_Session is aliased as OW_Session
+- MT_Singleton is aliased as OW_Singleton
+- MT_Smarty is aliased as OW_Smarty
+- MT_Storage is aliased as OW_Storage
+- MT_TextSearchManager is aliased as OW_TextSearchManager
+- MT_Theme is aliased as OW_Theme
+- MT_TokenAuthenticator is aliased as OW_TokenAuthenticator
+- MT_User is aliased as OW_User
+- MT_Validator is aliased as OW_Validator
+- MT_ViewRenderer is aliased as OW_ViewRenderer
+- MT_View is aliased as OW_View
 
-#Constant Aliases
+##Constant Aliases
 
 The following constants are defined in this script:
 
