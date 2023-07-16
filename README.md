@@ -1,8 +1,10 @@
-#PHP Class and Constant Aliasing Documentation
+PHP Class and Constant Aliasing Documentation
+==============================================
 
 This script provides class and constant aliases to match Meutiv core classes and constants to Oxwall core classes and constants using PHP aliases. The purpose of this script is to allow Oxwall plugins to run on Meutiv with minimal adjustments.
 
-*Class Aliases
+Class Aliases
+=============
 
 The following class aliases are defined in this script:
 
@@ -77,7 +79,8 @@ The following class aliases are defined in this script:
 - MT_ViewRenderer is aliased as OW_ViewRenderer
 - MT_View is aliased as OW_View
 
-*Constant Aliases*
+Constant Aliases
+================
 
 The following constants are defined in this script:
 
@@ -118,7 +121,8 @@ The following constants are defined in this script:
 - MT_DIR_LIB_VENDOR is aliased as OW_DIR_LIB_VENDOR
 - MT_SQL_LIMIT_USERS_COUNT is aliased as OW_SQL_LIMIT_USERS_COUNT
 
-*Usage*
+Usage
+=====
 
 To use the class and constant aliases provided by this script, simply include or require the owalias/classalias.php file in your PHP project. Once included, you can reference the Meutiv classes and constants using the Oxwall aliases.
 
